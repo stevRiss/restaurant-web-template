@@ -1,26 +1,26 @@
 {
     "menu": [{
         "id": 1,
-        "name": "chicken1",
-        "email": "Sat@mail.com",
-        "adderss": "South street"
+        "name": "Chicken1",
+        "description": "Best rotisserie style chicken!",
+        "img": "https://assets.website-files.com/55b5aac889f079d03037f328/5625cd71c012a59a5449448e_ChickenNY.jpg"
     }, {
         "id": 2,
-        "name": "chicken2",
-        "email": "john@mail.com",
-        "adderss": "North street"
+        "name": "Salad",
+        "description": "Best salad ever!",
+        "img": "https://assets.website-files.com/55b5aac889f079d03037f328/5625d0c0c012a59a5449450a_Salads2-min.png"
     }, {
         "id": 3,
-        "name": "chicken3",
-        "email": "robert@mail.com",
-        "adderss": "East street"
+        "name": "Empanadas",
+        "description": "World famous empanadas",
+        "img": "https://assets.website-files.com/55b5aac889f079d03037f328/5625d0c0c012a59a5449450a_Salads2-min.png"
     }, {
         "id": 4,
-        "name": "Mani",
-        "email": "mani@mail.com",
-        "adderss": "West street"
+        "name": "Burritos",
+        "description": "Big ritos",
+        "img": "https://assets.website-files.com/55b5aac889f079d03037f328/5625cf34601f343e435effee_Empanadas-min_MAIN.png"
     }],
-    "comments": [{
+    "menuItems": [{
         "id": 1,
         "body": "some comment",
         "postId": 1

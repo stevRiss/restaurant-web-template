@@ -22,11 +22,11 @@ function NavBar(){
                     
                     <Nav>
                         <Nav.Item>
-                            <Nav.Link>PORTFOLIO!</Nav.Link>
+                            <Nav.Link>Family Specials</Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link>RESUME</Nav.Link>
+                            <Nav.Link>Contact Us!</Nav.Link>
                         </Nav.Item>
                         
                         <NavDropdown title='Links' id='drop'>
