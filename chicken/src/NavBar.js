@@ -11,6 +11,16 @@ function NavBar(){
         navigate('/', {replace:true})
     }
 
+    const handleContact = () => {
+        navigate('/contact', {replace:true})
+
+    }
+
+    const handleSpecials = () => {
+        navigate('/specials', {replace:true})
+
+    }
+
     return (
 
             <Navbar fixed='top' expand='sm' collapseOnSelect bg='dark'>
@@ -22,19 +32,19 @@ function NavBar(){
                     
                     <Nav>
                         <Nav.Item>
-                            <Nav.Link>Family Specials</Nav.Link>
+                            <Nav.Link onClick={handleSpecials}>Family Specials</Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link>Contact Us!</Nav.Link>
+                            <Nav.Link onClick={handleContact}>Contact Us!</Nav.Link>
                         </Nav.Item>
                         
-                        <NavDropdown title='Links' id='drop'>
-                            <NavDropdown.Item href='https://www.linkedin.com/in/stephenrisso'>LinkedIn</NavDropdown.Item>
+                        <NavDropdown title='More' id='drop'>
+                            <NavDropdown.Item href='https://www.linkedin.com/in/stephenrisso'>Photo gallery</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href='https://github.com/stevRiss'>Github</NavDropdown.Item>
+                            <NavDropdown.Item href='https://github.com/stevRiss'>Catering</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href='https://medium.com/@stevriss22'>Medium</NavDropdown.Item>
+                            <NavDropdown.Item href='https://medium.com/@stevriss22'>Awards</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Container>

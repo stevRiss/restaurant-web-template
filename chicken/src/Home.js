@@ -2,25 +2,20 @@ import './App.scss';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import {useEffect, useState} from 'react';
+import { useNavigate } from 'react-router'
 import MenuCards from './MenuCards';
 
-function Home(){
-    const [menuItems, setMenuItems] = useState([])
+function Home({menuItems}){
+    
+    const navigate = useNavigate();
 
-    useEffect(() => {
-        fetch("http://localhost:3000/db.json").then(r => r.json().then(d => {
-            setMenuItems(d.menu);
-            
-        }))
-    }, [])
+   
 
     const renderCards = (items) => {
          return menuItems.map(item => <MenuCards key={item.id} item={item} />);
     }
 
-    const handleChicken = () =>{
-
-    }
+    
     return (
         <>
         <h1>...</h1>
@@ -46,14 +41,10 @@ function Home(){
             <h1 className='headings'>Location and hours of operation</h1>
             <p>Open Monday - Saturday 1:00PM - 7:30PM</p>
             <p>Located at 2000 MERRICK ROAD BELLMORE, NY 11710  </p>
-            <img src='https://maps.googleapis.com/maps/api/staticmap?center=Bellmore,NY&zoom=13&size=400x400&key=urkey'/>
+            <img src='https://maps.googleapis.com/maps/api/staticmap?center=Bellmore,NY&zoom=13&size=400x400&key=AIzaSyApz26PpXaAPiIuLp89ePnH4Gztlv9BtqI'/>
         </div>
 
-        <div id='contact-us'>
-            <h1 className='headings'>Order Now!</h1>
-            <h2>Takeout or Delivery!</h2>
-            <p>Phone: 516-222-2222</p>
-        </div>
+        
         </>
     )
 }

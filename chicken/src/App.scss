@@ -35,6 +35,13 @@
     font-size: 38px;
   }
 
+  #delivery-apps{
+    display:flex ;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    justify-content:space-evenly;
+  }
+
   #menu-cards{
     display:flex ;
     flex-wrap: wrap;
