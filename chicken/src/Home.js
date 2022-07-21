@@ -40,16 +40,19 @@ function Home(){
             <div id='menu-cards'>
                 {renderCards(menuItems)}
             </div>
-            
+        </div>
 
-            {/* <Card style={{width: '18rem'}}>
-                <Card.Img variant='top' src="https://assets.website-files.com/55b5aac889f079d03037f328/5625cd71c012a59a5449448e_ChickenNY.jpg" alt="Rotisserie Chicken Bellmore"/>
-                <Card.Body>
-                    <Card.Title>Chicken</Card.Title>
-                    <Card.Text>Award Winning rotisserie chicken!</Card.Text>
-                </Card.Body>
-                <Button variant='primary' onClick={handleChicken}>Chik menu</Button>
-            </Card> */}
+        <div id='location-and-hours'>
+            <h1 className='headings'>Location and hours of operation</h1>
+            <p>Open Monday - Saturday 1:00PM - 7:30PM</p>
+            <p>Located at 2000 MERRICK ROAD BELLMORE, NY 11710  </p>
+            <img src='https://maps.googleapis.com/maps/api/staticmap?center=Bellmore,NY&zoom=13&size=400x400&key=urkey'/>
+        </div>
+
+        <div id='contact-us'>
+            <h1 className='headings'>Order Now!</h1>
+            <h2>Takeout or Delivery!</h2>
+            <p>Phone: 516-222-2222</p>
         </div>
         </>
     )
