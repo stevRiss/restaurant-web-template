@@ -40,5 +40,15 @@
         "item": "BIG FAMILY 3 WHOLE CHICKEN SPECIAL",
         "description": "3 Whole Chickens with 4 sides",
         "price": "$89.50"
+    }],
+    "sideItems": [{
+        "id": "1",
+        "item": "beans"
+    },{
+        "id":"2",
+        "item":"french fries"
+    },{
+        "id:": "3",
+        "item":"Corn"
     }]
 }

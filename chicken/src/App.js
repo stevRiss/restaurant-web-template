@@ -12,11 +12,13 @@ import ContactInfo from './ContactInfo';
 function App() {
   const [menuItems, setMenuItems] = useState([])
   const [special, setSpecials] = useState([])
+  const [sides, setSides] = useState([])
 
   useEffect(() => {
     fetch("http://localhost:3000/db.json").then(r => r.json().then(d => {
         setMenuItems(d.menu);
-        setSpecials(d.specials)
+        setSpecials(d.specials);
+        setSides(d.sideItems);
     }))
 }, [])
 
@@ -30,7 +32,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home menuItems={menuItems} />} />
             <Route path='/chicken' element={<Chicken />} />
-            <Route path='/specials' element={<Specials special={special}/>}/>
+            <Route path='/specials' element={<Specials special={special} sides={sides}/>}/>
             <Route path='/contact' element={<Contact />}/>
           </Routes>
 
