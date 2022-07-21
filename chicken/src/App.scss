@@ -1,0 +1,41 @@
+
+@import "~bootstrap/scss/bootstrap";
+
+.App{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;  // font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+  }
+  .navbar-light .navbar-nav .nav-item .nav-link {
+  
+    color: yellow;
+  
+  }
+  #homepage{
+    color: yellow;
+  }
+ 
+  #welcome{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+  }
+  #welcome-subtext{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+  }
+
+  #best-chik{
+    background-color: yellow;
+    text-align: center;
+  }
+  
+  .headings{
+    font-weight: bold;
+    font-size: 38px;
+  }
+  // #res{
+  //   text-align: center;
+  // }
+  
+  
