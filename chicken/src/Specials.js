@@ -18,9 +18,12 @@ function Specials({special, sides}) {
     return (
         <div id='special-formatting'>
             <h1>load</h1>
-            <div id='special-formatting'>
+            <div>
                 <h1 className='headings'>Family Specials</h1>
-                {renderSpecials(special)}
+                <div className='menu-cards'>
+                    {renderSpecials(special)}
+                </div>
+                
             </div>
 
             <div id='side-list'>

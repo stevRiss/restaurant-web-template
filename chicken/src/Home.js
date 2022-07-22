@@ -32,7 +32,7 @@ function Home({menuItems}){
 
         <div id='menu'>
             <h1 className='headings'>Menu</h1>
-            <div id='menu-cards'>
+            <div className='menu-cards'>
                 {renderCards(menuItems)}
             </div>
         </div>
