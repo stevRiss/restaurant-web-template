@@ -41,7 +41,7 @@ function Home({menuItems}){
             <h1 className='headings'>Location and hours of operation</h1>
             <p>Open Monday - Saturday 1:00PM - 7:30PM</p>
             <p>Located at 2000 MERRICK ROAD BELLMORE, NY 11710  </p>
-            <img src='https://maps.googleapis.com/maps/api/staticmap?center=Bellmore,NY&zoom=13&size=400x400&key=AIzaSyApz26PpXaAPiIuLp89ePnH4Gztlv9BtqI'/>
+            <img src='https://maps.googleapis.com/maps/api/staticmap?center=Bellmore,NY&zoom=13&size=400x400&key=urkey'/>
         </div>
 
         
