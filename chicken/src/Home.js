@@ -20,7 +20,11 @@ function Home({menuItems}){
         <>
         <h1>...</h1>
         <header>
-            <h1 id='welcome'>Road of Chicken</h1>
+            <div id='head-content'>
+                <img src='https://amindfullmom.com/wp-content/uploads/2021/07/Homemade-Rotisserie-Chicken-500x500.jpg'/>
+                <h1 id='welcome'>Road of Chicken</h1>
+            </div>
+
             <h2 id='welcome-subtext'>"We admit it, we're chickens!"</h2>
             <div id='best-chik'>The BEST rotisserie chicken on long island.</div>
         </header>

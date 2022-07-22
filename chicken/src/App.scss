@@ -10,8 +10,30 @@
     color: yellow;
   
   }
+  
+  #head-content{
+    text-align: center;
+  }
+
+  #head-content > img{
+    width: 150px;
+    height: 150px;
+  }
+
+  #head-content > img,
+  #head-content > h1 {
+      display: inline-block;
+  }
   #homepage{
     color: yellow;
+  }
+
+  #about-us{
+    margin-bottom: 50px;
+  }
+
+  #menu{
+    margin-bottom: 50px;
   }
  
   #welcome{
@@ -48,6 +70,14 @@
   #special-formatting{
       text-align: center;
   }
+  #special-list{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #side-list{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .menu-cards{
     display:flex ;
     flex-wrap: wrap;
@@ -55,9 +85,12 @@
     justify-content: space-evenly;
   }
 
+
   #location-and-hours{
       text-align: center;
+      margin-bottom: 25px;
   }
+
   #contact-us{
       background-color: #212529;
       color: yellow;
